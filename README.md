@@ -1,42 +1,42 @@
 # Autostart Manager
 
-**Autostart Manager** — это удобное приложение с графическим интерфейсом, разработанное для управления автозапуском программ в Windows. Оно позволяет добавлять, удалять и управлять приложениями, запускаемыми при старте системы, а также выполнять пакетное выполнение программ. Приложение поддерживает светлую и тёмную темы, drag-and-drop функциональность и логирование всех операций.
+**Autostart Manager** is a user-friendly GUI application designed for managing autostart programs on Windows. It allows users to add, remove, and manage applications that launch at system startup, as well as execute programs in batches. The application supports light and dark themes, drag-and-drop functionality, and comprehensive logging of all operations.
 
-## Возможности
+## Features
 
-### Управление автозапуском
-- **Добавление программ в автозапуск**:
-  - Поддержка `.exe`, `.bat`, `.cmd` файлов.
-  - Возможность запуска программ с правами администратора через Планировщик задач Windows.
-  - Добавление программ в реестр для стандартного автозапуска.
-  - Drag-and-drop для удобного выбора файлов.
-- **Удаление программ из автозапуска**:
-  - Удаление записей из реестра или Планировщика задач.
-  - Подтверждение перед удалением для предотвращения ошибок.
-- **Просмотр текущих автозапусков**:
-  - Отображение всех программ, добавленных в автозапуск (реестр и Планировщик задач).
-  - Удобная таблица с возможностью сортировки.
+### Autostart Management
+- **Add Programs to Autostart**:
+  - Supports `.exe`, `.bat`, and `.cmd` files.
+  - Option to run programs with administrator privileges via Windows Task Scheduler.
+  - Add programs to the Windows Registry for standard autostart.
+  - Drag-and-drop support for easy file selection.
+- **Remove Programs from Autostart**:
+  - Remove entries from the Registry or Task Scheduler.
+  - Confirmation prompt to prevent accidental deletions.
+- **View Current Autostart Programs**:
+  - Displays all programs configured for autostart (from Registry and Task Scheduler).
+  - Sortable table for easy navigation.
 
-### Пакетное выполнение программ
-- **Добавление и управление списком программ**:
-  - Drag-and-drop для добавления файлов в список.
-  - Возможность изменения порядка выполнения путём перетаскивания строк.
-  - Удаление отдельных программ или очистка всего списка.
-- **Запуск и остановка**:
-  - Запуск всех программ из списка одним кликом.
-  - Остановка всех запущенных процессов.
-  - Отображение статуса выполнения (Running/Stopped) в таблице.
+### Batch Execution
+- **Manage Batch Program List**:
+  - Drag-and-drop files to add them to the batch execution list.
+  - Reorder programs by dragging table rows.
+  - Remove individual programs or clear the entire list.
+- **Start and Stop Batch Execution**:
+  - Launch all programs in the list with a single click.
+  - Stop all running batch processes.
+  - Real-time status display (Running/Stopped) in the table.
 
-### Дополнительные функции
-- **Темы интерфейса**:
-  - Переключение между светлой и тёмной темами.
-  - Сохранение выбранной темы между запусками.
-- **Импорт/экспорт настроек**:
-  - Экспорт списка пакетных программ и настроек темы в JSON-файл.
-  - Импорт настроек из JSON-файла для быстрой настройки.
-- **Логирование**:
-  - Запись всех операций в лог-файл (`autostart_manager.log`) с ротацией (максимум 1 МБ, до 5 резервных копий).
-  - Просмотр последних 100 строк логов в интерфейсе.
-  - Возможность очистки логов.
-- **Автозапуск самого приложения**:
-  - Добавление или удаление Autostart Manager из автозапуска одним кликом.
+### Additional Features
+- **Interface Themes**:
+  - Toggle between light and dark themes.
+  - Theme preference is saved between sessions.
+- **Import/Export Settings**:
+  - Export batch program list and theme settings to a JSON file.
+  - Import settings from a JSON file for quick configuration.
+- **Logging**:
+  - Logs all operations to `autostart_manager.log` with rotation (1 MB max, up to 5 backups).
+  - View the last 100 log lines in the GUI.
+  - Option to clear logs.
+- **Self-Autostart Management**:
+  - Add or remove Autostart Manager itself from autostart with one click.
